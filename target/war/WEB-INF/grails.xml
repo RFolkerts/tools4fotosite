@@ -1,0 +1,16 @@
+<grails>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
+    <resource>JQueryConfig</resource>
+    <resource>JQueryTagLib</resource>
+  </resources>
+  <plugins>
+    <plugin>AppEngineGrailsPlugin</plugin>
+    <plugin>JqueryGrailsPlugin</plugin>
+  </plugins>
+</grails>
